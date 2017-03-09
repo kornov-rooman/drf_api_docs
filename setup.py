@@ -18,20 +18,12 @@ setup(
     download_url='https://github.com/kornov-rooman/drf_api_docs/archive/master.zip',
     packages=['drf_api_docs'],
     classifiers=[],
-    requires=['django', 'coreapi', 'openapi-codec', 'djagnorestframework'],
+    requires=['django', 'coreapi', 'djagnorestframework'],
     install_requires=[
         'django>=1.10',
         'coreapi>=2.1.1',
-        'openapi-codec>=1.2.1',
         'djangorestframework>=3.5.3'
     ],
     license='MIT',
-    keywords=[
-        'djangorestframework',
-        'rest_framework',
-        'drf',
-        'django',
-        'documentation',
-        'api'
-    ],
+    keywords=['djangorestframework', 'rest_framework', 'drf', 'django', 'documentation'],
 )
