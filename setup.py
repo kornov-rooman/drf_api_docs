@@ -10,6 +10,7 @@ setup(
     author_email='kornov.rooman@gmail.com',
     url='https://github.com/kornov-rooman/drf_api_docs',
     download_url='https://github.com/kornov-rooman/drf_api_docs/archive/master.zip',
+    packages=['drf_api_docs'],
     classifiers=[],
     requires=['django', ''],
     install_requires=[
