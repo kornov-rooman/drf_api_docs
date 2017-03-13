@@ -21,7 +21,7 @@ setup(
     requires=['django', 'coreapi', 'djagnorestframework'],
     install_requires=[
         'django',
-        'coreap',
+        'coreapi',
         'djangorestframework'
     ],
     license='MIT',
