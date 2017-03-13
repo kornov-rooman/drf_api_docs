@@ -20,9 +20,9 @@ setup(
     classifiers=[],
     requires=['django', 'coreapi', 'djagnorestframework'],
     install_requires=[
-        'django>=1.10',
-        'coreapi>=2.1.1',
-        'djangorestframework>=3.5.3'
+        'django',
+        'coreap',
+        'djangorestframework'
     ],
     license='MIT',
     keywords=['djangorestframework', 'rest_framework', 'drf', 'django', 'documentation'],
