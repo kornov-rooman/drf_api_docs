@@ -22,7 +22,7 @@ setup(
     install_requires=[
         'django',
         'coreapi',
-        'djangorestframework'
+        'djangorestframework>=3.5'
     ],
     license='MIT',
     keywords=['djangorestframework', 'rest_framework', 'drf', 'django', 'documentation'],
