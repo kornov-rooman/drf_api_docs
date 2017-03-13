@@ -1,8 +1,9 @@
 from collections import OrderedDict
+from urllib.parse import urljoin
 
 from django.template.loader import render_to_string
 from rest_framework import exceptions
-from rest_framework.compat import coreapi, urlparse
+from rest_framework.compat import coreapi
 from rest_framework.schemas import SchemaGenerator
 
 
@@ -51,7 +52,7 @@ class CustomSchemaGenerator(SchemaGenerator):
             path = path[1:]
 
         return coreapi.Link(
-            url=urlparse.urljoin(self.url, path),
+            url=urljoin(self.url, path),
             action=method.lower(),
             encoding=encoding,
             fields=fields,
